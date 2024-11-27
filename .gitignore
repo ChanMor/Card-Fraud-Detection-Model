@@ -1,0 +1,41 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment
+venv/
+.env/
+ENV/
+
+# Ignore other environment files
+*.env
+*.venv
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore logs and debug files
+*.log
+
+# Ignore package manager output
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore Python bytecode and temporary files
+*.egg-info/
+*.egg
+*.pkl
+*.sqlite3
+*.~*
+
+# Ignore any file from IPython extensions
+.ipython/
+
+# Ignore specific IDE configurations
+.vscode/
+.idea/
+*.sublime-workspace
