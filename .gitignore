@@ -1,3 +1,6 @@
+# Ignore CSV files
+*.csv
+
 # Ignore Python compiled files
 __pycache__/
 *.py[cod]
@@ -6,7 +9,7 @@ __pycache__/
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Ignore virtual environment
+# Ignore virtual environment directories
 venv/
 .env/
 ENV/
@@ -18,7 +21,7 @@ ENV/
 # Ignore macOS-specific files
 .DS_Store
 
-# Ignore logs and debug files
+# Ignore log files and debug outputs
 *.log
 
 # Ignore package manager output
@@ -32,10 +35,10 @@ pip-delete-this-directory.txt
 *.sqlite3
 *.~*
 
-# Ignore any file from IPython extensions
+# Ignore files from IPython extensions
 .ipython/
 
-# Ignore specific IDE configurations
+# Ignore IDE configurations
 .vscode/
 .idea/
 *.sublime-workspace
